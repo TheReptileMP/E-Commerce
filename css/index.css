@@ -1,0 +1,170 @@
+:root{
+    --raleway: "raleway";
+    --background-blanco: #F5F5F5;
+    --fuente-barra: #A2A2A2;
+    --fuente-banner: #FFFFFF;
+    --fuente-productos: #464646;
+    --fuente-productos-azul: #2A7AE4;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    width: 85%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .85rem;
+    padding-bottom: .85rem;
+}
+
+.logo{
+    width: 9.3rem;
+}
+
+.div-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50%;
+}
+
+.input-search{
+    padding: .75rem;
+    background: var(--background-blanco);
+    border-radius: 1.25rem;
+    border: none;
+    outline: none;
+}
+
+.btn-search{
+    margin-left: -50px;
+    border: none;
+    opacity: 50;
+    background-color: var(--background-blanco);
+}
+
+.btn-login{
+    width: 9rem;
+    height: 2.5rem;
+    background-color: #FFFFFF;
+    border: 2px solid var(--fuente-productos-azul);
+    font-size: 16px;
+    color: #2A7AE4;
+
+}
+
+.btn-lupa{
+    display: none;
+}
+
+.contenido-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/banner.png);
+    background-size: cover;
+    background-position: center center;
+    position: static;
+    justify-content: center;
+}
+
+.banner-texto h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--fuente-banner);
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.banner-texto p{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--fuente-banner);
+    margin-left: 7.5rem;
+    margin-bottom: 1.25rem;
+    text-align: left;
+}
+
+.btn-consolas{
+    width: 6.8rem;
+    height: 3.1rem;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--fuente-productos-azul);
+    color: white;
+    margin-left: 7.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    border: none;
+}
+
+@media (min-width:320px) and (max-width:768px){
+    .menu{
+        width: 90%;
+    }
+
+    .logo{
+        width: 7.5rem;
+    }
+    
+    .div-search{
+        margin-right: 10%;
+    }
+    
+    .input-search{
+        display: none;
+    }
+
+    .btn-search{
+        display: none;
+
+    }
+
+    .btn-login{
+        width: 6rem;
+    }
+
+    .btn-lupa{
+        display: inline;
+        background-color: white;
+        border: none;
+        margin-left: 0.62rem;
+    }
+    
+    .banner-texto h1{
+        font-size: 22px;
+        margin-left: 1rem;
+    }
+    
+    .banner-texto p{
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+    
+    .btn-consolas{
+        margin-left: 1rem;
+        width: 7rem;
+        height: 2rem;
+        font-size: 14px;
+        text-align: center;
+    }
+}
