@@ -1,0 +1,19 @@
+@import url(root.css);
+
+.input-label{
+    position: absolute;
+    left: 12px;
+    top: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--fuente-barra);
+    transition: all 0.25s
+}
+
+.input-base:not(:placeholder-shown) + .input-label,
+.input-base:focus + .input-label{
+    font-size: 12px;
+    top: 0px;
+    padding: 8px 0 32px 0px;
+    transition: all 0.25s;
+}

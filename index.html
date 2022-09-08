@@ -6,6 +6,9 @@
         <title> E-Commerce | Alura Geek</title>
         <link href="css/reset.css" rel="stylesheet"/>
         <link href="css/base.css" rel="stylesheet"/>
+        <link href="css/elements/buttons.css" rel="stylesheet"/>
+        <link href="css/elements/inputs.css" rel="stylesheet"/>
+        <link href="css/elements/labels.css" rel="stylesheet"/>
         <link href="css/index.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +33,7 @@
                     <div class="banner-texto">
                         <h1>Abril Promocional</h1>
                         <p>Productos seleccionados con 33% de descuento</p>
-                        <a href="#consolas"><button class="btn-consolas">Ver consolas</button></a>
+                        <a href="#consolas"><button class="btn-consolas btn-azul">Ver consolas</button></a>
                     </div>
                 </div>
                 <section class="categoria">
@@ -197,14 +200,14 @@
                 <form class="formulario" action="">
                     <h2>Hable con nosotros</h2>
                     <div class="input-container">
-                        <input class="input-name" name="nombre" id="nombre" type="text"/>
+                        <input class="input-name input-base" name="nombre" id="nombre" type="text" placeholder="Nombre"/>
                         <label class="input-label" for="nombre">Nombre</label>
                     </div>
                     <div class="input-container">
-                        <textarea class="textarea-message" name="mensaje" id="mensaje"></textarea>
-                        <label class="textarea-label" for="mensaje">Escribe un mensaje</label>
+                        <textarea class="textarea-message input-base" name="mensaje" id="mensaje" placeholder="Escribe un mensaje"></textarea>
+                        <label class="input-label" for="mensaje">Escribe un mensaje</label>
                     </div>
-                    <button class="btn-enviar">Enviar mensaje</button>
+                    <button class="btn-enviar btn-azul">Enviar mensaje</button>
                 </form>
             </section>
         </footer>

@@ -1,0 +1,6 @@
+@import url("../root.css");
+.btn-azul{
+    background-color: var(--fuente-productos-azul);
+    border: none;
+    color: white;
+}
