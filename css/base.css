@@ -110,13 +110,11 @@ footer{
 
 .input-name{
     height: 56px;
-    width: -webkit-fill-available;
     margin-bottom: 16px;
 }
 
 .textarea-message{
     height: 82px;
-    width: -webkit-fill-available;
     resize: none;
     margin-bottom: 16px;
 }

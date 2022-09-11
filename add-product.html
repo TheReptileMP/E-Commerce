@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> E-Commerce | Alura Geek</title>
+        <link href="css/reset.css" rel="stylesheet"/>
+        <link href="css/base.css" rel="stylesheet"/>
+        <link href="css/elements/buttons.css" rel="stylesheet"/>
+        <link href="css/elements/inputs.css" rel="stylesheet"/>
+        <link href="css/elements/labels.css" rel="stylesheet"/>
+        <link href="css/add-product.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <section class="menu">
+                <img class="logo" src="img/logo.png" alt="Logo AluraGeek"/>
+                <div class="div-search">
+                    <input class="input-search" placeholder="¿Qué deseas buscar?"/>
+                    <button class="btn-search"><img src="./img/lupa.png" alt="Icono lupa"/></button>
+                </div>
+                <a href="menu-admin.html"><button class="btn-menu-adm btn-blanco">Menu Administrador</button></a>
+                <button class="btn-lupa"><img src="img/lupa-negro.png" alt="Icono lupa"/></button>
+            </section>
+        </header>
+        <main>
+            <section class="formulario-container-producto">
+                <form class="form-producto">
+                    <h2>Agregar nuevo producto</h2>
+                    <div class="input-container">
+                        <input class="input-image input-base" name="url-imagen" id="input-url" placeholder="URL de imagen"/>
+                        <label class="input-label" for="url-imagen">URL de imagen</label>
+                    </div>
+                    <div class="input-container">
+                        <input class="input-categoria input-base" name="categoria" id="categoria" placeholder="Categoría"/>
+                        <label class="input-label" for="categoria">Categoría</label>
+                    </div>
+                    <div class="input-container">
+                        <input class="input-producto input-base" name="nombre-producto" id="nombre-producto" placeholder="Nombre del producto"/>
+                        <label class="input-label" for="nombre-producto">Nombre del producto</label>
+                    </div>
+                    <div class="input-container">
+                        <input class="input-precio input-base" name="precio" id="precio" placeholder="Precio del producto"/>
+                        <label class="input-label" for="precio">Precio del producto</label>
+                    </div>
+                    <div class="input-container">
+                        <textarea class="input-descripcion input-base" name="descripcion" id="descripcion" placeholder="Descripción del producto"></textarea>
+                        <label class="input-label" for="descripcion">Descripción del producto</label>
+                    </div>
+                    <button class="btn-agregar-producto btn-azul">Agregar producto</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section class="formulario-container">
+                <div class="logo-footer-container">
+                    <img class="logo" src="img/logo.png" alt="Logo AluraGeek"/>
+                </div>
+                <div class="links-container">
+                    <a>Quienes somos</a>
+                    <a>Política de privacidad</a>
+                    <a>Programa de fidelidad</a>
+                    <a>Nuestras tiendas</a>
+                    <a>Quiero ser franquiciado</a>
+                    <a>Anuncie aquí</a>
+                </div>
+                <form class="formulario" action="">
+                    <h2>Hable con nosotros</h2>
+                    <div class="input-container">
+                        <input class="input-name input-base" name="nombre" id="nombre" type="text" placeholder="Nombre"/>
+                        <label class="input-label" for="nombre">Nombre</label>
+                    </div>
+                    <div class="input-container">
+                        <textarea class="textarea-message input-base" name="mensaje" id="mensaje" placeholder="Escribe un mensaje"></textarea>
+                        <label class="input-label" for="mensaje">Escribe un mensaje</label>
+                    </div>
+                    <button class="btn-enviar btn-azul">Enviar mensaje</button>
+                </form>
+            </section>
+        </footer>
+        <section class="rodapie">
+            <div class="rodapie-container">
+                <p>Desarrollado por Giuliano Stilo</p>
+                <p>2022</p>
+            </div>
+        </section>
+    </body>
+</html>

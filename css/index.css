@@ -3,10 +3,6 @@
 .btn-login{
     width: 9rem;
     height: 2.5rem;
-    background-color: #FFFFFF;
-    border: 2px solid var(--fuente-productos-azul);
-    font-size: 16px;
-    color: #2A7AE4;
 }
 
 .banner{

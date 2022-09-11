@@ -1,10 +1,11 @@
 @import url(variables.css);
-main{
-    background-color: var(--background-blanco);
-}
 
 .div-search{
     margin-right: 67.25%;
+}
+
+main{
+    background-color: var(--background-blanco);
 }
 
 .formulario-container-login{

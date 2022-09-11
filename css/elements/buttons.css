@@ -4,3 +4,10 @@
     border: none;
     color: white;
 }
+
+.btn-blanco{
+    background-color: #FFFFFF;
+    border: 2px solid var(--fuente-productos-azul);
+    font-size: 16px;
+    color: #2A7AE4;
+}

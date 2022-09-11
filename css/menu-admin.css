@@ -16,10 +16,12 @@ main{
     align-items: center;
 }
 
+.categoria-texto a{
+    margin-right: 7%;
+}
+
 .btn-agregar{
     padding: 16px;
-    text-align: center;
-    margin-right: 7%;
 }
 
 .card{
