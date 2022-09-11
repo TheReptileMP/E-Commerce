@@ -1,0 +1,27 @@
+@import url(variables.css);
+
+main{
+    background-color: var(--background-blanco);
+}
+
+.div-search{
+    margin-right: 67.25%;
+}
+
+.categoria{
+    margin-top: 64px;
+}
+
+.categoria-texto{
+    align-items: center;
+}
+
+.btn-agregar{
+    padding: 16px;
+    text-align: center;
+    margin-right: 7%;
+}
+
+.card{
+    margin-bottom: 64px;
+}

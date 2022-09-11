@@ -1,4 +1,4 @@
-@import url(root.css);
+@import url(variables.css);
 
 .btn-login{
     width: 9rem;
@@ -7,12 +7,6 @@
     border: 2px solid var(--fuente-productos-azul);
     font-size: 16px;
     color: #2A7AE4;
-}
-
-.contenido-container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 .banner{
@@ -56,26 +50,8 @@
 
 
 .categoria{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 1.25rem;
     margin-bottom: 4rem;
-}
-
-.categoria-texto{
-    width: 85%;
-    height: 2.37rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.categoria-texto h2{
-    font-size: 32px;
-    margin-left: 00.62rem;
 }
 
 .categoria-texto img{
@@ -88,49 +64,6 @@
     margin-top: 10px;
     font-size: 16px;
     color: var(--fuente-productos-azul);
-}
-
-.productos{
-    width: 85%;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-
-.card{
-    width: var(--cardWidth);
-    height: var(--cardHeight);
-    margin: var(--cardMargin);
-    box-sizing: border-box;
-}
-
-.card img{
-    width: 11rem;
-    height: 10.8rem;
-    display: flex;
-}
-
-.card h3{
-    font-weight: 500;
-    font-size: 14px;
-    color: var(--fuente-productos);
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.card p{
-    font-weight: 500;
-    font-size: 14px;
-    color: var(--fuente-productos);
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.card a{
-    font-weight: 700;
-    font-size: 16px;
-    color: var(--fuente-productos-azul);
-    margin-top: 10px;
 }
 
 @media (min-width:320px) and (max-width:768px){

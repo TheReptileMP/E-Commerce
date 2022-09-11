@@ -1,4 +1,4 @@
-@import url("../root.css");
+@import url(../variables.css);
 .btn-azul{
     background-color: var(--fuente-productos-azul);
     border: none;
