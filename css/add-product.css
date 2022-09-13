@@ -46,3 +46,29 @@ main{
     padding: 16px;
     text-align: center;
 }
+
+/*Responsividad tablet*/
+@media (min-width:769px) and (max-width:1024px){
+    .form-producto{
+        width: 90%;
+    }
+
+    .form-producto h2{
+        font-size: 22px;
+    }
+}
+
+/*Responsividad mobile*/
+@media (min-width:320px) and (max-width:768px){
+    .formulario-container-producto{
+        padding: 16px 0;
+    }
+
+    .form-producto{
+        width: 90%;
+    }
+
+    .form-producto h2{
+        font-size: 22px;
+    }
+}

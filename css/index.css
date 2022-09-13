@@ -62,6 +62,31 @@
     color: var(--fuente-productos-azul);
 }
 
+/*Responsividad tablet*/
+@media (min-width:769px) and (max-width:1024px){
+
+    .banner-texto h1, .banner-texto p{
+        margin-left: 32px;
+    }
+
+    .btn-consolas{
+        margin-left: 32px;
+    }
+
+    .categoria-texto{
+        width: 90%;
+    }
+
+    .productos{
+        width: 90%;
+    }
+
+    .productos .card:nth-child(n+5){
+        display: none;
+    }
+
+}
+/*Responsividad mobile*/
 @media (min-width:320px) and (max-width:768px){
     .btn-login{
         width: 6rem;
@@ -83,5 +108,17 @@
         height: 2rem;
         font-size: 14px;
         text-align: center;
+    }
+
+    .categoria-texto{
+        width: 90%;
+    }
+
+    .productos{
+        width: 90%;
+    }
+
+    .productos .card:nth-child(n+5){
+        display: none;
     }
 }

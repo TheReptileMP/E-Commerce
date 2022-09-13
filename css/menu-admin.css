@@ -26,4 +26,34 @@ main{
 
 .card{
     margin-bottom: 64px;
+    position: relative;
+}
+
+.btn-opc-producto{
+    position: absolute;
+    display: flex;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.btn-delete{
+    top: 11px;
+    right: 65px;
+}
+
+.btn-edit{
+    top: 11px;
+    right: 30px;
+}
+
+.btn-opc-img{
+    display: flex;
+}
+
+/*Responsividad mobile*/
+@media (min-width:320px) and (max-width:768px){
+    .btn-agregar{
+        margin-left: 0.62rem;
+    }
 }

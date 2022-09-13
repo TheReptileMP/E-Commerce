@@ -42,7 +42,7 @@
     box-sizing: border-box;
 }
 
-.card img{
+.card-img{
     width: 11rem;
     height: 10.8rem;
     display: flex;
@@ -69,4 +69,35 @@
     font-size: 16px;
     color: var(--fuente-productos-azul);
     margin-top: 10px;
+}
+
+/*Responsividad tablet*/
+@media (min-width:769px) and (max-width:1024px){
+
+    .categoria-texto{
+        width: 90%;
+    }
+
+    .productos{
+        width: 90%;
+    }
+
+}
+/*Responsividad mobile*/
+@media (min-width:320px) and (max-width:768px){
+    .categoria-texto{
+        width: 90%;
+        flex-direction: column;
+        height: min-content;
+        align-items: flex-start !important;
+        gap: 16px;
+    }
+
+    .categoria-texto h2{
+        font-size: 22px;
+    }
+
+    .productos{
+        width: 90%;
+    }
 }
