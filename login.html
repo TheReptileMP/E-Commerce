@@ -58,14 +58,16 @@
                 <form class="formulario" action="">
                     <h2>Hable con nosotros</h2>
                     <div class="input-container">
-                        <input class="input-name input-base" name="nombre" id="nombre" type="text" placeholder="Nombre"/>
+                        <input class="input-name input-base" name="nombre" id="nombre" type="text" placeholder="Nombre" pattern="^\S[a-zA-ZáéíóúüñÑ\s]{2,40}" data-tipo="nombre" required/>
                         <label class="input-label" for="nombre">Nombre</label>
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="input-container">
-                        <textarea class="textarea-message input-base" name="mensaje" id="mensaje" placeholder="Escribe un mensaje"></textarea>
+                        <textarea class="textarea-message input-base" name="mensaje" id="mensaje" placeholder="Escribe un mensaje" data-tipo="mensaje" required></textarea>
                         <label class="input-label" for="mensaje">Escribe un mensaje</label>
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
-                    <button class="btn-enviar btn-azul">Enviar mensaje</button>
+                    <button class="btn-enviar">Enviar mensaje</button>
                 </form>
             </section>
         </footer>
@@ -75,5 +77,6 @@
                 <p>2022</p>
             </div>
         </section>
+        <script src="form-contacto.js"></script>
     </body>
 </html>

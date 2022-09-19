@@ -3,6 +3,7 @@
     background-color: var(--fuente-productos-azul);
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .btn-blanco{
@@ -10,4 +11,7 @@
     border: 2px solid var(--fuente-productos-azul);
     font-size: 16px;
     color: #2A7AE4;
+    cursor: pointer;
 }
+
+/* Clase de estilo para boton enviar de formulario de contacto: */

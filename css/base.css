@@ -110,13 +110,13 @@ footer{
 
 .input-name{
     height: 56px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .textarea-message{
     height: 82px;
     resize: none;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .btn-enviar{
@@ -124,6 +124,8 @@ footer{
     font-weight: 400;
     width: 150px;
     padding: 16px;
+    background-color: var(--fuente-barra);
+    cursor: not-allowed;
 }
 
 .rodapie{

@@ -16,3 +16,24 @@
 .input-base::placeholder{
     visibility: hidden;
 }
+
+input:-webkit-autofill { 
+    -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */ 
+}
+
+/* Clases para estilos de inputs con errores de validacion: */
+
+.input-message-error{
+    display: none;
+    margin: 0 0 16px 12px;
+    color: coral;
+}
+
+.input-container--invalid .input-base{
+    border: 1px solid coral;
+    border-radius: 7px;
+}
+
+.input-container--invalid .input-message-error{
+    display: flex;
+}

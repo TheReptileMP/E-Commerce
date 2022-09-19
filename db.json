@@ -1,0 +1,183 @@
+{
+    "producto": [
+        {
+            "name": "Taza StarWars",
+            "imageUrl": "./img/starwars1.png",
+            "price": "$60,00",
+            "id": 1,
+            "alt": "Taza de starwars",
+            "section": "Star Wars",
+            "description":"Taza para bebidas de Star Wars"
+        },
+
+        {
+            "name": "Figura StarWars",
+            "imageUrl": "./img/starwars2.png",
+            "price": "$30,00",
+            "id": 2,
+            "alt": "Figura StarWars",
+            "section": "Star Wars",
+            "description":"Figura / adorno de Star Wars"
+        },
+
+        {
+            "name": "Cuadro Yoda",
+            "imageUrl": "./img/starwars3.png",
+            "price": "$15,00",
+            "id": 3,
+            "alt": "Cuadro de Yoda",
+            "section": "Star Wars",
+            "description":"Pintura de Yoda de Star Wars"
+        },
+
+        {
+            "name": "Cuadro robot StarWars",
+            "imageUrl": "./img/starwars4.png",
+            "price": "$15,00",
+            "id": 4,
+            "alt": "Cuadro de robot StarWars",
+            "section": "Star Wars",
+            "description":"Pintura de Robot de Star Wars"
+        },
+
+        {
+            "name": "Figura Baby-Yoda",
+            "imageUrl": "./img/starwars5.png",
+            "price": "$45,00",
+            "id": 5,
+            "alt": "Figura de Baby-Yoda",
+            "section": "Star Wars",
+            "description":"Figura de Baby-Yoda de Star Wars"
+        },
+
+        {
+            "name": "Cuadro StarWars",
+            "imageUrl": "./img/starwars6.png",
+            "price": "$15,00",
+            "id": 6,
+            "alt": "Cuadro de StarWars",
+            "section": "Star Wars",
+            "description":"Pintura de Star Wars"
+        },
+
+        {
+            "name": "Joystick Xbox",
+            "imageUrl": "./img/consola1.png",
+            "price": "$15,00",
+            "id": 7,
+            "alt": "Control Xbox",
+            "section": "Consolas",
+            "description":"Joystick de consola Xbox, original"
+        },
+
+        {
+            "name": "Playstation 5",
+            "imageUrl": "./img/consola2.png",
+            "price": "$150,00",
+            "id": 8,
+            "alt": "Playstation 5",
+            "section": "Consolas",
+            "description":"Consola playstation 5"
+        },
+
+        {
+            "name": "Nintendo",
+            "imageUrl": "./img/consola3.png",
+            "price": "$60,00",
+            "id": 9,
+            "alt": "Nintendo",
+            "section": "Consolas",
+            "description":"Consola Nintendo retro"
+        },
+
+        {
+            "name": "Controles Nintendo Switch",
+            "imageUrl": "./img/consola4.png",
+            "price": "$55,00",
+            "id": 10,
+            "alt": "Controles Nintendo Switch",
+            "section": "Consolas",
+            "description":"Controles nintendo switch"
+        },
+        
+        {
+            "name": "Xbox x series",
+            "imageUrl": "./img/consola5.png",
+            "price": "$150,00",
+            "id": 11,
+            "alt": "Consola Xbox",
+            "section": "Consolas",
+            "description":"Consola Xbox X series"
+        },
+
+        {
+            "name": "Gameboy Color",
+            "imageUrl": "./img/consola6.png",
+            "price": "$30,00",
+            "id": 12,
+            "alt": "Consola Gameboy",
+            "section": "Consolas",
+            "description":"Consola Gameboy color retro"
+        },
+
+        {
+            "name": "Bordado Atari",
+            "imageUrl": "./img/diversos1.png",
+            "price": "$10,00",
+            "id": 13,
+            "alt": "Bordado",
+            "section": "Diversos",
+            "description":"Bordado con logo de atari"
+        },
+
+        {
+            "name": "Remera Joystick",
+            "imageUrl": "./img/diversos2.png",
+            "price": "$15,00",
+            "id": 14,
+            "alt": "Remera",
+            "section": "Diversos",
+            "description":"Remera estampada con dibujo de joystick"
+        },
+
+        {
+            "name": "Figura Sonic",
+            "imageUrl": "./img/diversos3.png",
+            "price": "$20,00",
+            "id": 15,
+            "alt": "Figura",
+            "section": "Diversos",
+            "description":"Figura de Sonic"
+        },
+
+        {
+            "name": "Radio despertador",
+            "imageUrl": "./img/diversos4.png",
+            "price": "$9,00",
+            "id": 16,
+            "alt": "Radio",
+            "section": "Diversos",
+            "description":"Radio retro con función de despertador"
+        },
+
+        {
+            "name": "Gafas Realidad Virtual",
+            "imageUrl": "./img/diversos5.png",
+            "price": "$25,00",
+            "id": 17,
+            "alt": "Gafas realidad virtual",
+            "section": "Diversos",
+            "description":"Gafas para realidad virtual"
+        },
+
+        {
+            "name": "Peluche Pikachu",
+            "imageUrl": "./img/diversos6.png",
+            "price": "$14,00",
+            "id": 18,
+            "alt": "Oso de peluche",
+            "section": "Diversos",
+            "description":"Oso de peluche Pikachu"
+        }
+    ]
+}
