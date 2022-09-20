@@ -7,7 +7,7 @@ const passIngresado = formulario2.querySelector("#password");
 
 botonEntrar.disabled = true;
 
-const emailAdm = "thereptile@github.com";
+const emailAdm = "thereptile@ecommerce.com";
 const passAdm = "a1b2c3d4";
 
 var camposEnError = 0;
