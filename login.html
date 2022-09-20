@@ -31,14 +31,17 @@
                 <form class="form-login">
                     <h2>Iniciar Sesión</h2>
                     <div class="input-container">
-                        <input class="input-email input-base" name="email" id="email" type="email" placeholder="Escriba su correo electrónico"/>
+                        <input class="input-email input-base" name="email" id="email" type="email" data-tipo="email" placeholder="Escriba su correo electrónico" required/>
                         <label class="input-label" for="email">Escriba su email</label>
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="input-container">
-                        <input class="input-password input-base" name="password" id="password" type="password" placeholder="Escriba su contraseña"/>
+                        <input class="input-password input-base" name="password" id="password" data-tipo="password" type="password" pattern="\S{4,}" placeholder="Escriba su contraseña" required/>
                         <label class="input-label" for="password">Escriba su contraseña</label>
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
-                    <button class="btn-entrar btn-azul">Entrar</button>
+                    <span class="input-message-error" id="label-btn">Usuario/Contraseña erróneos</span>
+                    <button class="btn-entrar">Entrar</button>
                 </form>
             </section>
         </main>
@@ -77,6 +80,7 @@
                 <p>2022</p>
             </div>
         </section>
-        <script src="form-contacto.js"></script>
+        <script type="module" src="./scripts/form-contacto.js"></script>
+        <script type="module" src="./scripts/login.js"></script>
     </body>
 </html>

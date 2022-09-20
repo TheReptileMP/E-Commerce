@@ -19,6 +19,7 @@
 
 input:-webkit-autofill { 
     -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */ 
+    box-shadow:0 0 0 50px white inset;
 }
 
 /* Clases para estilos de inputs con errores de validacion: */
