@@ -161,14 +161,6 @@
       "alt": "Oso de peluche",
       "section": "Diversos",
       "description": "Oso de peluche Pikachu"
-    },
-    {
-      "imageUrl": "https://es.digitaltrends.com/wp-content/uploads/2019/06/segagenesismini2.jpg?fit=720%2C510&p=1",
-      "section": "Consolas",
-      "name": "Sega Genesis 1",
-      "price": "27",
-      "id": "ce8cec04-d205-4e70-9738-f9f67b68f98c",
-      "description": "Consola sega genesis 1"
     }
   ]
 }

@@ -10,7 +10,14 @@ const crearProducto = (imageUrl, section, name, price, description) => {
     });
 };
 
+const eliminarProducto = (id) => {
+    return fetch(`http://localhost:3000/producto/${id}`, {
+        method: "DELETE",
+    });
+};
+
 export const productoServices = {
     listaProductos,
     crearProducto,
+    eliminarProducto,
 }
