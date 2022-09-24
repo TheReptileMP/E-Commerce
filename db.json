@@ -3,7 +3,7 @@
     {
       "name": "Taza StarWars",
       "imageUrl": "./img/starwars1.png",
-      "price": "$60,00",
+      "price": "60.00",
       "id": 1,
       "alt": "Taza de starwars",
       "section": "Star Wars",
@@ -12,7 +12,7 @@
     {
       "name": "Figura StarWars",
       "imageUrl": "./img/starwars2.png",
-      "price": "$30,00",
+      "price": "30.00",
       "id": 2,
       "alt": "Figura StarWars",
       "section": "Star Wars",
@@ -21,7 +21,7 @@
     {
       "name": "Cuadro Yoda",
       "imageUrl": "./img/starwars3.png",
-      "price": "$15,00",
+      "price": "15.00",
       "id": 3,
       "alt": "Cuadro de Yoda",
       "section": "Star Wars",
@@ -30,7 +30,7 @@
     {
       "name": "Cuadro robot StarWars",
       "imageUrl": "./img/starwars4.png",
-      "price": "$15,00",
+      "price": "15.00",
       "id": 4,
       "alt": "Cuadro de robot StarWars",
       "section": "Star Wars",
@@ -39,7 +39,7 @@
     {
       "name": "Figura Baby-Yoda",
       "imageUrl": "./img/starwars5.png",
-      "price": "$45,00",
+      "price": "45.00",
       "id": 5,
       "alt": "Figura de Baby-Yoda",
       "section": "Star Wars",
@@ -48,7 +48,7 @@
     {
       "name": "Cuadro StarWars",
       "imageUrl": "./img/starwars6.png",
-      "price": "$15,00",
+      "price": "15.00",
       "id": 6,
       "alt": "Cuadro de StarWars",
       "section": "Star Wars",
@@ -57,7 +57,7 @@
     {
       "name": "Joystick Xbox",
       "imageUrl": "./img/consola1.png",
-      "price": "$15,00",
+      "price": "15.00",
       "id": 7,
       "alt": "Control Xbox",
       "section": "Consolas",
@@ -66,7 +66,7 @@
     {
       "name": "Playstation 5",
       "imageUrl": "./img/consola2.png",
-      "price": "$150,00",
+      "price": "150.00",
       "id": 8,
       "alt": "Playstation 5",
       "section": "Consolas",
@@ -75,7 +75,7 @@
     {
       "name": "Nintendo",
       "imageUrl": "./img/consola3.png",
-      "price": "$60,00",
+      "price": "60.00",
       "id": 9,
       "alt": "Nintendo",
       "section": "Consolas",
@@ -84,7 +84,7 @@
     {
       "name": "Controles Nintendo Switch",
       "imageUrl": "./img/consola4.png",
-      "price": "$55,00",
+      "price": "55.00",
       "id": 10,
       "alt": "Controles Nintendo Switch",
       "section": "Consolas",
@@ -93,7 +93,7 @@
     {
       "name": "Xbox x series",
       "imageUrl": "./img/consola5.png",
-      "price": "$150,00",
+      "price": "150.00",
       "id": 11,
       "alt": "Consola Xbox",
       "section": "Consolas",
@@ -102,7 +102,7 @@
     {
       "name": "Gameboy Color",
       "imageUrl": "./img/consola6.png",
-      "price": "$30,00",
+      "price": "30.00",
       "id": 12,
       "alt": "Consola Gameboy",
       "section": "Consolas",
@@ -111,7 +111,7 @@
     {
       "name": "Bordado Atari",
       "imageUrl": "./img/diversos1.png",
-      "price": "$10,00",
+      "price": "10.00",
       "id": 13,
       "alt": "Bordado",
       "section": "Diversos",
@@ -120,7 +120,7 @@
     {
       "name": "Remera Joystick",
       "imageUrl": "./img/diversos2.png",
-      "price": "$15,00",
+      "price": "15.00",
       "id": 14,
       "alt": "Remera",
       "section": "Diversos",
@@ -129,7 +129,7 @@
     {
       "name": "Figura Sonic",
       "imageUrl": "./img/diversos3.png",
-      "price": "$20,00",
+      "price": "20.00",
       "id": 15,
       "alt": "Figura",
       "section": "Diversos",
@@ -138,7 +138,7 @@
     {
       "name": "Radio despertador",
       "imageUrl": "./img/diversos4.png",
-      "price": "$9,00",
+      "price": "9.00",
       "id": 16,
       "alt": "Radio",
       "section": "Diversos",
@@ -147,20 +147,19 @@
     {
       "name": "Gafas Realidad Virtual",
       "imageUrl": "./img/diversos5.png",
-      "price": "$25,00",
+      "price": "25.00",
       "id": 17,
       "alt": "Gafas realidad virtual",
       "section": "Diversos",
       "description": "Gafas para realidad virtual"
     },
     {
-      "name": "Peluche Pikachu",
       "imageUrl": "./img/diversos6.png",
-      "price": "$14,00",
-      "id": 18,
-      "alt": "Oso de peluche",
       "section": "Diversos",
-      "description": "Oso de peluche Pikachu"
+      "name": "Peluche Pikachu",
+      "price": "27.00",
+      "description": "Oso de peluche Pikachu",
+      "id": 18
     }
   ]
 }

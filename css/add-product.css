@@ -38,7 +38,7 @@ main{
     width: 100%;
 }
 
-.btn-agregar-producto{
+.btn-agregar-producto, .btn-editar-producto{
     width: 100%;
     height: 52px;
     font-size: 16px;

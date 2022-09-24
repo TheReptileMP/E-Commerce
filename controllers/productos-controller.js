@@ -31,6 +31,12 @@ const nuevoProducto = (name, price, imageUrl, id) => {
             const id = btnDelete.id;
             productoServices.eliminarProducto(id).then(respuesta => { console.log(respuesta)}).catch(err => alert("Ocurrió un error!")); 
         });
+
+        const btnEdit = card.querySelector(".btn-edit");
+        btnEdit.addEventListener("click", () => {
+            const id = btnDelete.id;
+            window.location.href = `./edit-product.html?id=${id}`;
+        });
         return card;
     }
 };
