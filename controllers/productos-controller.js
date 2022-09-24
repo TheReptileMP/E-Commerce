@@ -3,18 +3,7 @@ import { productoServices } from "../servicios/productos-servicios.js";
 const nuevoProducto = (name, price, imageUrl, id) => {
 
     const card = document.createElement("div");
-
-    if(window.location.href.includes("/index.html")){
-        const contenido = `
-        <img class="card-img" src="${imageUrl}"/>
-        <h3>${name}</h3>
-        <p>${price}</p>
-        <a href="">Ver producto</a>`;
-
-        card.innerHTML = contenido;
-        card.classList.add("card");
-        return card;
-    } else {
+    if(window.location.href.includes("/menu-admin.html")) {
         const contenido = `
         <img class="card-img" src="${imageUrl}"/>
         <button class="btn-delete btn-opc-producto" id=${id}><img class="btn-opc-img" src="img/delete.png" alt="Icono borrar"/></button>
@@ -37,6 +26,16 @@ const nuevoProducto = (name, price, imageUrl, id) => {
             const id = btnDelete.id;
             window.location.href = `./edit-product.html?id=${id}`;
         });
+        return card;
+    } else {
+        const contenido = `
+        <img class="card-img" src="${imageUrl}"/>
+        <h3>${name}</h3>
+        <p>${price}</p>
+        <a href="">Ver producto</a>`;
+
+        card.innerHTML = contenido;
+        card.classList.add("card");
         return card;
     }
 };

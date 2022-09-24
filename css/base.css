@@ -181,6 +181,7 @@ footer{
     }
 
     .btn-search{
+        vertical-align: middle;
         display: none;
     }
 
