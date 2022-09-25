@@ -10,7 +10,7 @@
         <link href="css/elements/inputs.css" rel="stylesheet"/>
         <link href="css/elements/labels.css" rel="stylesheet"/>
         <link href="css/elements/productos.css" rel="stylesheet"/>
-        <link href="css/index.css" rel="stylesheet"/>
+        <link href="css/menu-admin.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
@@ -19,48 +19,21 @@
     <body>
         <header>
             <section class="menu">
-                <img class="logo" src="./img/logo.png"/>
+                <img class="logo" src="img/logo.png" alt="Logo AluraGeek"/>
                 <div class="div-search">
                     <input class="input-search" placeholder="¿Qué deseas buscar?"/>
                     <button class="btn-search"><img src="./img/lupa.png" alt="Icono lupa"/></button>
                 </div>
-                <a href="login.html"><button class="btn-login btn-blanco">Login</button></a>
                 <button class="btn-lupa"><img src="img/lupa-negro.png" alt="Icono lupa"/></button>
             </section>
         </header>
         <main>
             <section class="contenido-container">
-                <div class="banner">
-                    <div class="banner-texto">
-                        <h1>Abril Promocional</h1>
-                        <p>Productos seleccionados con 33% de descuento</p>
-                        <a href="#consolas"><button class="btn-consolas btn-azul">Ver consolas</button></a>
-                    </div>
-                </div>
-                <section class="categoria" id="star wars">
+                <section class="categoria">
                     <div class="categoria-texto">
-                        <h2>Star Wars</h2>
-                        <a href="productos.html">Ver todo <img src="img/flecha-seccion.png"/></a>
+                        <h2>Todos los productos</h2>
                     </div>
                     <div class="productos" data-productos>
-                        <!-- Contenido cargado por el backend -->
-                    </div>
-                </section>
-                <section class="categoria" id="consolas">
-                    <div class="categoria-texto">
-                        <h2>Consolas</h2>
-                        <a href="productos.html">Ver todo <img src="img/flecha-seccion.png"/></a>
-                    </div>
-                    <div class="productos" data-productos="">
-                        <!-- Contenido cargado por el backend -->
-                    </div>
-                </section>
-                <section class="categoria" id="diversos">
-                    <div class="categoria-texto">
-                        <h2>Diversos</h2>
-                        <a href="productos.html">Ver todo <img src="img/flecha-seccion.png"/></a>
-                    </div>
-                    <div class="productos" data-productos="">
                         <!-- Contenido cargado por el backend -->
                     </div>
                 </section>
@@ -102,7 +75,7 @@
             </div>
         </section>
         <script type="module" src="./controllers/productos-controller.js"> </script>
-        <script type="module" src="./scripts/busqueda.js"> </script>
         <script type="module" src="./scripts/form-contacto.js"></script>
+        <script type="module" src="./scripts/busqueda.js"> </script>
     </body>
 </html>

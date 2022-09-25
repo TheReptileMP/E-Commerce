@@ -9,11 +9,13 @@ const resultadoBusqueda = async () => {
     try{
         const listaProductos = await productoServices.listaProductos();
         listaProductos.forEach(elemento => {
-            const nombre = elemento.name.toLowerCase();
-            if(nombre.includes(palabraClave)){
-                const divProductos = document.querySelector("[data-productos]");
-                divProductos.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
-                encontrados++;
+            if(palabraClave != "" && palabraClave != " "){
+                const nombre = elemento.name.toLowerCase();
+                if(nombre.includes(palabraClave)){
+                    const divProductos = document.querySelector("[data-productos]");
+                    divProductos.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
+                    encontrados++;
+                }
             }
         });
         if(encontrados==0){
