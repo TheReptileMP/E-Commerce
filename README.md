@@ -27,3 +27,9 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 
 <a href="https://thereptilemp.github.io/E-Commerce/">
 Ver demostración del proyecto</a>
+
+Datos para el logueo:
+email: thereptile@ecommerce.com
+password: a1b2c3d4
+
+Atención: Se requiere de un JSON-Server para poder utilizar el proyecto con todas sus funciones
